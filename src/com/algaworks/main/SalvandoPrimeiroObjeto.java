@@ -14,10 +14,10 @@ public class SalvandoPrimeiroObjeto {
 		EntityManager em = emf.createEntityManager();
 		
 		Cliente cliente = new Cliente();
-		cliente.setNome("Pedro Bial");
-		cliente.setIdade(24);
-		cliente.setProfissao("Jornalista");
-		cliente.setSexo("M");
+		cliente.setNome("Maria Rita");
+		cliente.setIdade(22);
+		cliente.setProfissao("Médica");
+		cliente.setSexo("F");
 		
 		em.getTransaction().begin();
 		em.persist(cliente);
